@@ -93,6 +93,7 @@ info = {
 # ------------------------
      'SOURCES += libs/misc/unistroke.c',
      'WRAPPERSOURCES += libs/misc/jswrap_unistroke.c',
+     'WRAPPERSOURCES += src/jswrap_openthread.c',
      'DEFINES += -DESPR_BANGLE_UNISTROKE=1',
      'SOURCES += libs/banglejs/banglejs2_storage_default.c',
      'DEFINES += -DESPR_STORAGE_INITIAL_CONTENTS=1', # use banglejs2_storage_default

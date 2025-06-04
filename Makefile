@@ -291,7 +291,8 @@ src/jswrap_storage.c \
 src/jswrap_spi_i2c.c \
 src/jswrap_stepper.c \
 src/jswrap_stream.c \
-src/jswrap_waveform.c
+src/jswrap_waveform.c \
+src/jswrap_openthread.c
 endif
 
 # it is important that _pin comes before stuff which uses

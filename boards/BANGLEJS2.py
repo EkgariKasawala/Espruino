@@ -84,7 +84,8 @@ info = {
      'SOURCES += libs/misc/heartrate_vc31_binary.c', 'DEFINES += -DHEARTRATE_VC31_BINARY=1', 'PRECOMPILED_OBJS += libs/misc/vc31_binary/algo.o libs/misc/vc31_binary/modle5_10.o libs/misc/vc31_binary/modle5_11.o libs/misc/vc31_binary/modle5_12.o libs/misc/vc31_binary/modle5_13.o libs/misc/vc31_binary/modle5_14.o libs/misc/vc31_binary/modle5_15.o libs/misc/vc31_binary/modle5_16.o libs/misc/vc31_binary/modle5_17.o libs/misc/vc31_binary/modle5_18.o libs/misc/vc31_binary/modle5_1.o libs/misc/vc31_binary/modle5_2.o libs/misc/vc31_binary/modle5_3.o libs/misc/vc31_binary/modle5_4.o libs/misc/vc31_binary/modle5_5.o libs/misc/vc31_binary/modle5_6.o libs/misc/vc31_binary/modle5_7.o libs/misc/vc31_binary/modle5_8.o libs/misc/vc31_binary/modle5_9.o',
 # ------------------------
      'SOURCES += libs/misc/unistroke.c',
-     'WRAPPERSOURCES += libs/misc/jswrap_unistroke.c',
+    'WRAPPERSOURCES += libs/misc/jswrap_unistroke.c',
+    'WRAPPERSOURCES += src/jswrap_openthread.c',
      'DEFINES += -DESPR_BANGLE_UNISTROKE=1',
      'SOURCES += libs/banglejs/banglejs2_storage_default.c',
      'DEFINES += -DESPR_STORAGE_INITIAL_CONTENTS=1', # use banglejs2_storage_default
